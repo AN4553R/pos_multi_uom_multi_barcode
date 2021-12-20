@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="assets_for_pos_restrict_access" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/pos_multi_uom_barcode/static/src/js/custom_models.js"/>
+            <script type="text/javascript" src="/pos_multi_uom_barcode/static/src/js/change_uom.js"/>
+            <script type="text/javascript" src="/pos_multi_uom_barcode/static/src/js/db.js"/>
+            <script type="text/javascript" src="/pos_multi_uom_barcode/static/src/js/product_screen.js"/>
+        </xpath>
+    </template>
+
+</odoo>
